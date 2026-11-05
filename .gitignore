@@ -1,0 +1,19 @@
+# private: tutor notes and local launchers
+CLAUDE.local.md
+*.command
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# model weights and caches
+*.safetensors
+*.bin
+*.pt
+models/
+hf_cache/
+
+# os
+.DS_Store
